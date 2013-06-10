@@ -1,0 +1,19 @@
+<div>
+	<input type="text" data-id="title" value="<%= title %>" class="title" />
+	<button class="btn darkgray fr visible"><div class="icon icon-eye lime"></div></button>
+</div>
+<div class="description"><textarea id="description" data-id="description"><%= description %></textarea></div>
+<div>
+	<ul class="blockList admin" data-unselectable></ul>
+</div>
+<div>
+	<select id="addModule" class="fl">
+		<option>-- Add Module --</option>
+		<option value="VIDEO">Video</option>
+		<option value="FILE">File</option>
+		<option value="QUIZ">Quiz</option>
+	</select>
+	<input type="button" class="btn fr saveBtn" value="Save" />
+	<input type="button" class="btn gray mr fr cancelBtn" value="Cancel" />
+	
+</div>
